@@ -159,14 +159,14 @@ nav {
     display: flex;
     overflow-x: auto;
     margin: auto;
-    max-width: 60vw;
+    max-width: 80%;
  
   }
   .SideSc::-webkit-scrollbar{
     width: 0;
   }
   .SideSc .item{
-    min-width: 250px;
+    min-width: 300px;
     margin-left: 30px;
     min-height: 300px;
     text-align: left;
