@@ -148,6 +148,13 @@ nav {
     color: black;
     background-color: white;
    }
+  .scroll_group{
+    text-align: center;
+    padding: 2%;
+    color: white;
+
+  }
+
    .SideSc{
     display: flex;
     overflow-x: auto;
