@@ -25,23 +25,30 @@ body{
 
 }
 nav {
-    background-color: rgb(0, 0, 0);
+    background-color: black;
     color: #fff;
     
 
   }
   
   nav .navbar {
-    max-width: 1000px;
+    max-width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(0, 162, 255);
+
    
   }
   
+  .logo_brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
   nav .logo {
     display: flex;
+    margin-left: 5%;
   }
   
   nav img {
@@ -50,7 +57,7 @@ nav {
   }
   
   nav h1 {
-    margin: 0;
+    margin-right: 21px;
   }
   
   nav ul {
@@ -78,6 +85,7 @@ nav {
 
     nav .navbar {
       flex-direction: column;
+      height: 120px;
     }
     nav h1 {
       text-align: center;
@@ -94,6 +102,15 @@ nav {
       }
       .box{
         overflow: scroll;
+
+      }
+      nav .logo {
+        display: flex;
+        margin: 0;
+        padding: 0;
+      }
+      .logo_brand{
+        margin-top: auto;
 
       }
     }
@@ -148,7 +165,7 @@ nav {
     text-align: left;
     padding: 20px;
     line-height: 25px;
-    margin-bottom: 84px;
+    margin-bottom: 88px;
     display: flex;
     justify-content: center;
     align-items: center;
