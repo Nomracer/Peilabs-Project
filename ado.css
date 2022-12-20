@@ -191,6 +191,8 @@ nav {
     padding: 1rem;
     position: sticky;
     bottom: 0;
+    clear: both;
+    margin-top: 20px;
     
   }
   
